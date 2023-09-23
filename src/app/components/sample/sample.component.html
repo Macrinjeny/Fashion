@@ -1,0 +1,14 @@
+
+<h1 class="text">Fashion</h1>
+    <div class="products">
+        <div class="row">
+            <div class="class-product" *ngFor = "let data of sampleArr;">
+            <img src="{{data.image}}" alt="">
+            <h4><strong>Name:</strong>{{data.name}}</h4>
+            <p><strong>Price:</strong>{{data.price}}</p>
+            <button mat-raised-button class="button">Add to cart</button>
+            </div>
+            
+        </div>
+    
+    </div>
